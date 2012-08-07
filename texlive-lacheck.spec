@@ -1,4 +1,4 @@
-# revision 23089
+# revision 26689
 # category TLCore
 # catalog-ctan /support/lacheck
 # catalog-date 2010-12-21 21:15:21 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1.26
 Name:		texlive-lacheck
 Version:	1.26
-Release:	2
+Release:	3
 Summary:	LaTeX checker
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/lacheck
