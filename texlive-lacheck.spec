@@ -6,7 +6,7 @@
 # catalog-version 1.26
 Name:		texlive-lacheck
 Version:	1.26
-Release:	6
+Release:	7
 Summary:	LaTeX checker
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/lacheck
