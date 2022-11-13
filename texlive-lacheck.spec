@@ -1,18 +1,12 @@
-# revision 33818
-# category TLCore
-# catalog-ctan /support/lacheck
-# catalog-date 2012-06-24 00:35:21 +0200
-# catalog-license gpl
-# catalog-version 1.26
 Name:		texlive-lacheck
-Version:	1.26
-Release:	15
+Version:	54070
+Release:	1
 Summary:	LaTeX checker
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/lacheck
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,7 +24,7 @@ for OS/2 and Win32 environments.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
