@@ -1,6 +1,6 @@
 Name:		texlive-lacheck
 Version:	54070
-Release:	1
+Release:	2
 Summary:	LaTeX checker
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/lacheck
