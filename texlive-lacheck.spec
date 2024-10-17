@@ -3,7 +3,7 @@ Version:	66186
 Release:	1
 Summary:	LaTeX checker
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/lacheck
+URL:		https://www.ctan.org/tex-archive/support/lacheck
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lacheck.doc.r%{version}.tar.xz
